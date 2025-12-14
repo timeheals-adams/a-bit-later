@@ -42,11 +42,11 @@ onBeforeUnmount(() => {
       <!-- Левая часть -->
       <div class="flex justify-start items-center gap-6 lg:gap-[25px]">
         <!-- Логотип -->
-        <a href="/" class="flex justify-start items-center gap-[15px]">
+        <NuxtLink href="/" class="flex justify-start items-center gap-[15px]">
           <h1 class="text-white font-semibold">
             Anisign
           </h1>
-        </a>
+        </NuxtLink>
         
         <!-- Разделитель -->
         <VerticalDivider />
